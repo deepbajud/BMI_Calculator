@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter height in centimeters"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter weight in kilograms"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/submit"
+
+        android:layout_width="wrap_content"
+        android:backgroundTint="#7BD3ED"
+        android:layout_height="wrap_content"
+        android:text="submit" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/ans1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="deep"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+
+
+</LinearLayout>
